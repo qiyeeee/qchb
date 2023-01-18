@@ -116,9 +116,9 @@ def save_door(course, s, school, name, clas, dept):
     # url += get_ip()
     url += "&username=" + name
     url += "&phone=" + "未知"
-    url += "&city=" + school  # info["danwei1"]湖北经济学院法商学院
-    url += "&danwei2=" + clas  # info["danwei3"]班级
-    url += "&danwei=" + dept  # info["danwei2"]系部
+    url += "&city=" + school  # info["danwei1"]
+    url += "&danwei2=" + clas  # info["danwei3"]
+    url += "&danwei=" + dept  # info["danwei2"]
     url += "&openid=" + get_openid()  # 随机的openid
     url += "&num=10"
     url += "&lesson_name=" + course  # 大学习第几期
